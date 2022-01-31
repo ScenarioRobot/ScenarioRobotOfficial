@@ -21,7 +21,7 @@ jobs:
           title: Format code.
           body: Automated code formatting.
           labels: ⚫️ black
-          branch: autofix
+          branch: main
           committer: ScenarioRobot <2144966937+ScenarioRobot@users.noreply.github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: true
