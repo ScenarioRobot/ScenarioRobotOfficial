@@ -5,6 +5,8 @@ import os
 import random
 import io
 import glob
+
+import requests
 from PIL import Image, ImageDraw, ImageFont
 
 LOGO_LINKS = [
