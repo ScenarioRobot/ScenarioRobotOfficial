@@ -82,6 +82,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="Aᴅᴅ Mᴇ", url="t.me/Golden_gang_bot?startgroup=true"),
+        InlineKeyboardButton(text="Source", callback_data="source_back"),
     ],
     [
         InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="scenario_"),
