@@ -2,6 +2,7 @@ from ScenarioRobot.events import register
 from ScenarioRobot import OWNER_ID, BOT_NAME
 from ScenarioRobot import telethn as tbot
 import os 
+import random
 from PIL import Image, ImageDraw, ImageFont
 
 LOGO_LINKS = [
