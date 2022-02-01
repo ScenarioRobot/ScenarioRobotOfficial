@@ -291,7 +291,7 @@ def new_member(update: Update, context: CallbackContext):
                         parse_mode=ParseMode.HTML,
                     )
                 update.effective_message.reply_text(
-                    "Watashi ga kita!", reply_to_message_id=reply
+                    "He he!", reply_to_message_id=reply
                 )
                 continue
 
@@ -316,7 +316,7 @@ def new_member(update: Update, context: CallbackContext):
                         fullname = escape_markdown(f"{first_name} {new_mem.last_name}")
                     else:
                         fullname = escape_markdown(first_name)
-                    count = chat.get_members_count()
+                    count = Chat.get_members_count()
                     mention = mention_markdown(new_mem.id, escape_markdown(first_name))
                     if new_mem.username:
                         username = "@" + escape_markdown(new_mem.username)
