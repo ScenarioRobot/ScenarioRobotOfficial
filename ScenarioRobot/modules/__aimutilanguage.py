@@ -80,7 +80,7 @@ async def _(event):
   if not "Scenario" in prof:
     if not "scenario" in prof:
       reply_msg = await event.get_reply_message()
-      if not reply_msg.sender_id == OWNER_ID:
+      if not reply_msg.sender_id == BOT_ID:
            return
   chat = event.chat
   msg = prof
