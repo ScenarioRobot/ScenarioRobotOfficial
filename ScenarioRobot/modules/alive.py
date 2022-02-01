@@ -22,9 +22,13 @@ async def awake(event):
 
   SCENARIO = "**Hello I'm Scenario!** \n\n"
 
-  SCENARIO += "🔥 **I'm Working Properly** \n\n"
+  SCENARIO += "🔥 **Master I'm Working Properly** \n\n"
 
   SCENARIO += "🔥 **My Master : [Akku](https://t.me/userderdead)** \n\n"
+
+  SCENARIO += f"🔥 **Python :** __3.9.7__ ** \n\n"
+
+  SCENARIO  += f"🔥 **Pyrogram :** __1.2.9__ ** \n\n"
 
   SCENARIO += f"🔥 **Telethon Version : {tlhver}** \n\n"
 
@@ -42,7 +46,7 @@ async def reload(event):
 
   tai = event.sender.first_name
 
-  SCENARIO = "✅ **scenario restarted successfully**\n\n• Admin list has been **updated**"
+  SCENARIO = "✅ **Scenario reloaded successfully**\n\n• Admin list has been **updated**"
 
   BUTTON = [[Button.url(" ᴜᴘᴅᴀᴛᴇs", "https://t.me/TeamScenario")]]
 
