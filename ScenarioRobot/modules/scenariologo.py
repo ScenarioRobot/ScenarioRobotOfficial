@@ -3,6 +3,8 @@ from ScenarioRobot import OWNER_ID, BOT_NAME
 from ScenarioRobot import telethn as tbot
 import os 
 import random
+import io
+import glob
 from PIL import Image, ImageDraw, ImageFont
 
 LOGO_LINKS = [
