@@ -81,7 +81,7 @@ I'm here to help you manage your groups! Hit Help button below to find out more 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ", url="t.me/ScenarioRobot?startgroup=true"),
+            text="Aᴅᴅ Mᴇ", url="t.me/Golden_gang_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="scenario_"),
@@ -91,7 +91,7 @@ buttons = [
         InlineKeyboardButton(
             text="News", url="t.me/TeamScenario"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/TeamScenario"
+            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/noobxsupport"
         ),
     ],
 ]
