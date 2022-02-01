@@ -44,6 +44,6 @@ async def reload(event):
 
   SCENARIO = "✅ **scenario restarted successfully**\n\n• Admin list has been **updated**"
 
-  BUTTON = [[Button.url(" ᴜᴘᴅᴀᴛᴇs", "https://t.me/noobxupdates")]]
+  BUTTON = [[Button.url(" ᴜᴘᴅᴀᴛᴇs", "https://t.me/TeamScenario")]]
 
   await tbot.send_file(event.chat_id, PHOTO, caption=SCENARIO,  buttons=BUTTON)
