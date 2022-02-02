@@ -81,18 +81,18 @@ I'm here to help you manage your groups! Hit Help button below to find out more 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ", url="t.me/Golden_gang_bot?startgroup=true"),
-        InlineKeyboardButton(text="Source", callback_data="source_"),
+            text="➕ Aᴅᴅ Mᴇ", url="t.me/Golden_gang_bot?startgroup=true"),
+        InlineKeyboardButton(text="💾 Source", callback_data="source_"),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="scenario_"),
-        InlineKeyboardButton(text="Hᴇʟᴘ", callback_data="help_back"),
+        InlineKeyboardButton(text="👤 Aʙᴏᴜᴛ", callback_data="scenario_"),
+        InlineKeyboardButton(text="📘 Hᴇʟᴘ", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="News", url="t.me/TeamScenario"),
+            text="🔔 News", url="t.me/TeamScenario"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/noobxsupport"
+            text="♨️ Sᴜᴘᴘᴏʀᴛ", url="https://t.me/noobxsupport"
         ),
     ],
 ]
@@ -311,7 +311,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="👈", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="🔺", callback_data="help_back")]]
                 ),
             )
 
@@ -374,7 +374,7 @@ Have any question about Scenario?, let us know at @TeamScenario.""",
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="👈", callback_data="scenario_back")
+                    InlineKeyboardButton(text="🔺", callback_data="scenario_back")
                  ]
                 ]
             ),
@@ -395,13 +395,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi.. I'm *ScenarioRobot*
+                     I'm Made Using All Telegram Bot Source Code.
                  \nHere is the [Source Code](https://github.com/ScenarioRobot/ScenarioRobotOfficial) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="👈", callback_data="source_back")
+                    InlineKeyboardButton(text="🔺", callback_data="source_back")
                  ]
                 ]
             ),
@@ -446,7 +447,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help ❔",
+                            text="Help 📘",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
