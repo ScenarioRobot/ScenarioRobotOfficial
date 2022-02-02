@@ -99,16 +99,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*Main* commands available:
- • `/help`*:* PM's you this message.
- • `/help` `<module name>`*:* PM's you info about that module.
- • `/donate`*:* information on how to donate!
- • `/settings`*:*
-   - in PM: will send you your settings for all supported modules[.](https://telegra.ph/file/8ff10f74d4be5aa1b36aa.jpg)
-   - in a group: will redirect you to pm, with all that chat's settings.
-
-"""
-
+Tap on the module bellow to get information about how to use."""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/userderdead) or by contacting @userderdead \
