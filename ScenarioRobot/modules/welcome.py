@@ -190,7 +190,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Stay Alert, Superior just joined Here.", reply_to_message_id=reply
+                    "Stay Alert, My Master just joined Here.", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
@@ -202,7 +202,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Be Patient! A member of the Emcee powerhouse just joined.",
+                    "Be Patient! A member of the Scenario powerhouse just joined.",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
