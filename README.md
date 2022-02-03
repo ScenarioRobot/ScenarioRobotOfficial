@@ -1,5 +1,8 @@
-# ScenarioRobotOfficial 
+# ScenarioRobotOfficial ❤️
+
 # If You Deploy Using This Repository That's good But Atleast Give A Star ❤️
+
+# Thanks To MashaRobot For Base ❤️ 
 
 SCENARIOROBOT IS ADVANCE GROUP MANAGER BOT.
 
@@ -9,7 +12,7 @@ I CAN MANAGE ANY TELEGRAM GROUP AND ALSO POWERFUL THAN OTHERS LIKE SCENARIOROBOT
 
 Source And Credits.
 
-<a href="https://github.com/Mister_Dark_Prince" alt="REPO SIZE"> <img src="https://img.shields.io/github/repo-size/userderdead/ScenarioRobotOfficial> />
+<a href="https://github.com/Mister_Dark_Prince" alt="REPO 
 <a href="https://t.me/noobxsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> 
 
 
