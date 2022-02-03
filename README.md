@@ -12,7 +12,6 @@ I CAN MANAGE ANY TELEGRAM GROUP AND ALSO POWERFUL THAN OTHERS LIKE SCENARIOROBOT
 
 Source And Credits.
 
-<a href="https://github.com/Mister_Dark_Prince" alt="REPO 
 <a href="https://t.me/noobxsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> 
 
 
